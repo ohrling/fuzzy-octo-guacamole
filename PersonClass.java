@@ -1,19 +1,24 @@
 class PersonClass{
 
-private String  PersonName;
-private int PersonAge; 
+private String  personName;
+private int personAge; 
 
 
 public PersonClass(String name, int age){
-PersonName=name;
-PersonAge=age; 
+personName=name;
+personAge=age; 
 
 	}
 
 public String toString(){
-return "persons name is " + PersonName + "and is " + PersonAge + "years old"; 
+return "persons name is " + ersonName + "and is " + personAge + "years old"; 
 
 	}
+
+public addFamilyName(String familyName){
+personName += familyName
+
+}
 
 }
 
