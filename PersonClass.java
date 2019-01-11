@@ -1,24 +1,23 @@
-class PersonClass{
+patch-1
+class PersonClass {
 
-private String  personName;
-private int personAge; 
+    private String name;
+    private int age;
 
+    public PersonClass(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 
-public PersonClass(String name, int age){
-personName=name;
-personAge=age; 
+    public void changeName(String name) {
+        if (!name.isEmpty()) {
+            this.name = name;
+        }
+    }
 
-	}
-
-public String toString(){
-return "persons name is " + ersonName + "and is " + personAge + "years old"; 
-
-	}
-
-public addFamilyName(String familyName){
-personName += familyName
+    @Override
+    public String toString() {
+        return "Persons name is " + name + "and is " + age + "years old";
+    }
 
 }
-
-}
-
