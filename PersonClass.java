@@ -17,7 +17,7 @@ class PersonClass {
 
     @Override
     public String toString() {
-        return "Persons name is " + name + "and is " + age + "years old";
+        return "Persons name is " + name + " and is " + age + " years old";
     }
 
 }
